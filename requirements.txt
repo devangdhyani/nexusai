@@ -1,0 +1,22 @@
+# NexusAI — Python dependencies
+# Install: pip install -r requirements.txt
+
+# ── LangGraph / LangChain stack ───────────────────────────────────────
+langgraph>=1.0.2
+langchain>=1.0.3
+langchain-core>=0.3.0
+langchain-groq>=1.0.0
+langchain-community>=0.4.1
+langchain-tavily>=0.2.13
+tavily-python>=0.3.0
+
+# ── LLM provider ──────────────────────────────────────────────────────
+# langchain-groq already pulls in groq; listed for clarity
+groq>=0.9.0
+
+# ── Web app ───────────────────────────────────────────────────────────
+streamlit>=1.36.0
+
+# ── Utilities ─────────────────────────────────────────────────────────
+python-dotenv>=1.2.1
+typing-extensions>=4.0.0
